@@ -6,7 +6,6 @@ namespace App\Service\Search;
 
 use ApiPlatform\State\ProviderInterface;
 use App\Entity\ProductElastic;
-
 use Elastic\Elasticsearch\ClientBuilder;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use ApiPlatform\Metadata\Operation;
